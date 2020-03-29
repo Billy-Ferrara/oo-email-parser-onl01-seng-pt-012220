@@ -10,6 +10,7 @@ class EmailAddressParser
   def initialize(emails)
   end
 
+  emails = ["avi@test.com, arel@test.com"]
 
   def parse
   end
