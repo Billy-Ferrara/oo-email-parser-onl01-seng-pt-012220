@@ -7,7 +7,7 @@ class EmailAddressParser
   def initialize(email_addresses)
   end
 
-  def email_addresses = ["avi@test.com, arel@test.com"]
+  def email_addresses = []
   end 
 
   def parse
