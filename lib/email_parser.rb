@@ -8,7 +8,7 @@ class EmailAddressParser
   end
 
   def email_addresses = []
-  end 
+  end
 
   def parse
   end
