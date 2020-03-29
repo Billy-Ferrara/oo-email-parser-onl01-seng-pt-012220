@@ -5,15 +5,15 @@
 
 class EmailAddressParser
 
-attr_accessor :emails 
+attr_accessor :emails
 
   def initiali(emails)
     @emails = emails
-  end 
+  end
 
-  def parse 
+  def parse
     @emails = @emails.gsub(/[\s,]/ ," ").split
     @emails.uniq 
-  end 
+  end
 
-end 
+end
